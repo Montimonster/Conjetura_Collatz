@@ -1,37 +1,5 @@
 # Conjetura_Collatz
 
-    *********************************************************************************************
-    *********************************************************************************************
-    
-        $$$$$$$$$$$$$$$$$$        $$$$$                $$$$$             $$$$$$$$$$$$$$$$
-        $$$$$$$$$$$$$$$$$$        $$$$$$              $$$$$$           $$$$$$$$$$$$$$$$$$$$            
-        $$$$$                     $$$$$$$            $$$$$$$         $$$$$$   
-        $$$$$                     $$$$$$$$          $$$$$$$$        $$$$$$   
-        $$$$$                     $$$$$$$$$        $$$$$$$$$         $$$$$$             
-        $$$$$$$$$$$$$$$$$$        $$$$$ $$$$      $$$$ $$$$$          $$$$$$$$$$$$$$$$$$$
-        $$$$$$$$$$$$$$$$$$        $$$$$  $$$$    $$$$  $$$$$            $$$$$$$$$$$$$$$$$$$
-        $$$$$                     $$$$$   $$$$  $$$$   $$$$$                          $$$$$$
-        $$$$$                     $$$$$    $$$$$$$$    $$$$$                           $$$$$$        
-        $$$$$                     $$$$$     $$$$$$     $$$$$                          $$$$$$
-        $$$$$$$$$$$$$$$$$$        $$$$$                $$$$$          $$$$$$$$$$$$$$$$$$$$
-        $$$$$$$$$$$$$$$$$$        $$$$$                $$$$$            $$$$$$$$$$$$$$$$
-        
-    *********************************************************************************************
-    ********************************************************************************************* 
-    
-    
-    Practica Extra  -->  Conjetura de collatz
-    Eric Montoliu Sanchez 04/10/2021
-    
-    
-    Funcion del programa:    
-    Crear un programa que sigui capaç de averiguar si un nombre cumpleix amb la conjetura de Collatz,
-    la conjetura estableix que si tens un nombre parell es dividira entre 2, i si es senar es multiplicara
-    per 3 i se li sumara 1, la cojetura diu que per a cualsevol nombre enter positiu que donis seguint la pauta de dividir
-    i multiplicar sempre acabas en 1, i per tant entrant en un bucle.
-    
-    
-    Aclaraciones:
     En este programa para determinar si un numero nos acabara llevando hasta el 1 hacemos uso de una lista, la qual vamos a llamar lista de
     numeros finalizadores(numFinales), para codificar los valores de esta lista de manera que sean facilmente accesibles a la hora de leerla
     esta codificada en 0 y 1, 0 si el valor asignado aun no hemos comprobado si llega a 1 o bien este no llega nunca, y 1 para aquellos 
